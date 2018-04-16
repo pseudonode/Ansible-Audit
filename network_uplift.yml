@@ -131,4 +131,4 @@
 
      - copy:
          content: "{{ show_ip_route.stdout[0] }}"
-dest: "{{ backup_root }}/{{ inventory_hostname }}_show_ip_route.txt
+         dest: "{{ backup_root }}/{{ inventory_hostname }}_show_ip_route.txt
